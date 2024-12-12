@@ -16,14 +16,9 @@ pip install transformers datasets torch
 
 ## Project Structure
 ```
-sentiment-analysis-project/
-│
-├── sentiment-analysis-model/
-│   ├── model configuration files
-│   └── tokenizer files
-│
-├── train_sentiment_model.py
-├── test_sentiment_model.py
+finetuning-model-Bert/
+├── Sentiment-Analysis-Final.ipynb
+├── requirements.txt
 └── README.md
 ```
 
