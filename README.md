@@ -1,4 +1,4 @@
-# IMDB Sentiment Analysis with DistilBERT
+# Sentiment Analysis with DistilBERT
 
 ## Project Overview
 This project implements a sentiment analysis model using DistilBERT on the IMDB movie review dataset. The goal is to classify movie reviews as positive or negative using a fine-tuned transformer model.
