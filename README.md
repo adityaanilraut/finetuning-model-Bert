@@ -4,7 +4,7 @@
 This project implements a sentiment analysis model using DistilBERT on the IMDB movie review dataset. The goal is to classify movie reviews as positive or negative using a fine-tuned transformer model.
 
 ## Prerequisites
-- Python 3.7+
+- Python 3.11+
 - PyTorch
 - Transformers library
 - Datasets library
@@ -45,7 +45,7 @@ finetuning-model-Bert/
 - **Evaluation Strategy**: Epoch-based
 
 ## Training Script Breakdown
-The training script (`train_sentiment_model.py`) consists of several key steps:
+The training script (`Sentiment-Analysis-Final.ipynb`) consists of several key steps:
 
 1. **Load Dataset**
    - Uses Hugging Face `load_dataset` to fetch IMDB reviews
@@ -78,7 +78,7 @@ The test script demonstrates prediction capabilities:
 ```
 Base Model Predictions:
 Text: This movie was absolutely fantastic!
-Prediction: positive with score: 0.95
+Prediction: positive with score: 0.55
 
 Fine-Tuned Model Predictions:
 Text: This movie was absolutely fantastic!
